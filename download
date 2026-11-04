@@ -1,0 +1,28 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# Carpeta nativa: se regenera con `flutter create` (ver README)
+/android/
+/ios/
+/web/
+/linux/
+/macos/
+/windows/
+.metadata
+
+# Claves y firmas (NUNCA subir)
+*.jks
+*.keystore
+key.properties
+google-services.json

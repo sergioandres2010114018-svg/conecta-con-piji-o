@@ -1,0 +1,761 @@
+{
+ "municipio": {
+  "descripcion": "Pijiño del Carmen es un municipio del sur del departamento del Magdalena, en la parte baja del río Magdalena. Está rodeado por un complejo de ciénagas que hace parte de la Depresión Momposina y de la llanura Caribe, y su gente se reconoce como pescadora, campesina y ganadera.",
+  "imagen": "assets/images/sections/municipio.jpg",
+  "datos": [
+   {
+    "icono": "mapa",
+    "etiqueta": "Departamento",
+    "valor": "Magdalena, Colombia"
+   },
+   {
+    "icono": "mapa",
+    "etiqueta": "Coordenadas",
+    "valor": "9°20′ N · 74°27′ O"
+   },
+   {
+    "icono": "historia",
+    "etiqueta": "Origen",
+    "valor": "1750 · Hatillo de Pijiño"
+   },
+   {
+    "icono": "fecha",
+    "etiqueta": "Municipio desde",
+    "valor": "26 de marzo de 1996 (Ordenanza 1 de 1996)"
+   },
+   {
+    "icono": "extension",
+    "etiqueta": "Extensión aprox.",
+    "valor": "526 km² (por validar)"
+   },
+   {
+    "icono": "gente",
+    "etiqueta": "Población",
+    "valor": "≈ 11.000 hab. (Censo DANE 2018)"
+   },
+   {
+    "icono": "altura",
+    "etiqueta": "Altitud media",
+    "valor": "≈ 25 m s. n. m."
+   },
+   {
+    "icono": "ruta",
+    "etiqueta": "Distancia a Santa Marta",
+    "valor": "≈ 325 km"
+   },
+   {
+    "icono": "iglesia",
+    "etiqueta": "Patrona",
+    "valor": "Virgen del Carmen (16 de julio)"
+   }
+  ],
+  "limites": "Limita por el norte y el oeste con Santa Ana, por el sur con San Zenón y el departamento del Cesar, y por el este con el Cesar.",
+  "corregimientos": [
+   "Cabrera",
+   "El Dividivi",
+   "Filadelfia",
+   "San José de Prevención",
+   "Casa Blanca",
+   "Las Planadas",
+   "Nueva Holanda",
+   "La Lucha",
+   "El Brillante"
+  ],
+  "nota": "Cifras tomadas de fuentes públicas (planes municipales, DANE y publicaciones regionales). Algunas difieren entre sí y deben validarse con la Alcaldía."
+ },
+ "secciones": [
+  {
+   "id": "historia",
+   "titulo": "Historia",
+   "icono": "historia",
+   "imagen": "assets/images/sections/historia.jpg",
+   "descripcion": "De un hatillo ganadero a orillas de la ciénaga a un municipio con identidad propia.",
+   "items": [
+    {
+     "id": "h1",
+     "titulo": "El Hatillo de Pijiño (1750)",
+     "resumen": "Un hato de ganado y cultivos a orillas de la ciénaga.",
+     "cuerpo": [
+      "Hacia 1750, el maestro de campo José Fernando de Mier y Guerra fundó la población de San Zenón y dejó los playones y la ciénaga de Pijiño como territorio para sembrar cultivos de pancoger y criar ganado.",
+      "Así nació el célebre «Hatillo de Pijiño», origen del poblado que hoy conocemos. La cercanía a Mompós y al río Magdalena fue clave para su desarrollo."
+     ],
+     "imagen": "assets/images/sections/historia.jpg",
+     "etiquetas": [
+      "1750",
+      "Fundación"
+     ],
+     "validar": true
+    },
+    {
+     "id": "h2",
+     "titulo": "¿De dónde viene el nombre?",
+     "resumen": "El árbol pijiño y la reunión de ganado bajo su sombra.",
+     "cuerpo": [
+      "Se cuenta que «hatillo» hacía referencia a la reunión del ganado bajo los árboles de pijiño, abundantes en los humedales del sector de La Baizana.",
+      "El pijiño es un árbol de madera rosada y vidriosa con la que tradicionalmente se tallan cucharas de palo."
+     ],
+     "imagen": "assets/images/sections/ambiental.jpg",
+     "etiquetas": [
+      "Nombre",
+      "Naturaleza"
+     ],
+     "validar": true
+    },
+    {
+     "id": "h3",
+     "titulo": "La leyenda de la Virgen",
+     "resumen": "Una tabla que flotó en la ciénaga y dio nombre y patrona.",
+     "cuerpo": [
+      "Según la tradición oral, de las aguas de la ciénaga salió flotando una tabla en la que se reflejaba la imagen de la Virgen. De allí nace el segundo nombre del pueblo, «del Carmen», y la devoción por su patrona.",
+      "Cada 3 de mayo sale en procesión el retablo de la Virgen de Pijiño, y el 16 de julio se celebran las fiestas patronales de la Virgen del Carmen."
+     ],
+     "imagen": "assets/images/sections/eventos.jpg",
+     "etiquetas": [
+      "Leyenda",
+      "Fe"
+     ],
+     "validar": true
+    },
+    {
+     "id": "h4",
+     "titulo": "Gente de ciénaga y río",
+     "resumen": "Pueblos originarios, afrodescendientes y colonos.",
+     "cuerpo": [
+      "Las crónicas regionales cuentan que en la antigua ranchería habitaban indígenas chimilas, personas afrodescendientes libres y personas esclavizadas, todos viviendo de la agricultura, la pesca y la ganadería.",
+      "Esa mezcla de pueblos explica buena parte de la música, la cocina y las costumbres que hoy distinguen a Pijiño."
+     ],
+     "imagen": "assets/images/sections/pesca.jpg",
+     "etiquetas": [
+      "Población",
+      "Raíces"
+     ],
+     "validar": true
+    },
+    {
+     "id": "h5",
+     "titulo": "Tiempos de la Independencia",
+     "resumen": "Un territorio en medio de las guerras de 1811-1812.",
+     "cuerpo": [
+      "Se registra que en 1811 el territorio de Pijiño y Cabrera fue ocupado por un ejército realista, y que en octubre de 1812 tropas patriotas procedentes de Mompós incendiaron la población y desalojaron a los españoles."
+     ],
+     "imagen": "assets/images/sections/historia.jpg",
+     "etiquetas": [
+      "1811",
+      "1812"
+     ],
+     "validar": true
+    },
+    {
+     "id": "h6",
+     "titulo": "Nace el municipio (1996)",
+     "resumen": "De corregimiento de Santa Ana a municipio.",
+     "cuerpo": [
+      "Durante los siglos XIX y XX, Pijiño fue un corregimiento de Santa Ana. Mediante la Ordenanza n.º 1 de 1996, la Asamblea del Magdalena creó el municipio de Pijiño del Carmen el 26 de marzo de ese año.",
+      "Su territorio incluyó corregimientos como Cabrera, El Dividivi, Filadelfia, San José de Prevención, Casa Blanca, Las Planadas, Nueva Holanda, La Lucha y El Brillante. En 2026 el municipio conmemoró 30 años de vida institucional."
+     ],
+     "imagen": "assets/images/sections/hero.jpg",
+     "etiquetas": [
+      "1996",
+      "Municipio"
+     ],
+     "validar": false
+    }
+   ]
+  },
+  {
+   "id": "cultura",
+   "titulo": "Cultura y tradiciones",
+   "icono": "cultura",
+   "imagen": "assets/images/sections/cultura.jpg",
+   "descripcion": "Bailes cantaos, música, fe y oficios que mantienen viva la memoria del pueblo.",
+   "items": [
+    {
+     "id": "c1",
+     "titulo": "Bailes cantaos: chandé y pajarito",
+     "resumen": "Ritmos de tambor, canto y baile colectivo.",
+     "cuerpo": [
+      "El chandé y el pajarito son bailes cantaos que hacen parte de la identidad pijiñera: la música, la voz y el baile se combinan en rondas de celebración comunitaria."
+     ],
+     "imagen": "assets/images/sections/cultura.jpg",
+     "etiquetas": [
+      "Danza",
+      "Música"
+     ],
+     "validar": true
+    },
+    {
+     "id": "c2",
+     "titulo": "Grupos folclóricos",
+     "resumen": "Quienes guardan y transmiten la tradición.",
+     "cuerpo": [
+      "Entre los grupos folclóricos y musicales del municipio se mencionan Los Negritos de Pijiño, Son Pijiñero y el Grupo Renacer de Cabrera."
+     ],
+     "imagen": "assets/images/sections/eventos.jpg",
+     "etiquetas": [
+      "Folclor"
+     ],
+     "validar": true
+    },
+    {
+     "id": "c3",
+     "titulo": "Festival de la Canción Duque Palomino",
+     "resumen": "Un homenaje anual al folclor.",
+     "cuerpo": [
+      "Cada año se realiza en el municipio el Festival de la Canción Duque Palomino, un espacio para reconocer el aporte de la música y los compositores al folclor local. Confirma fechas y programación con la Alcaldía."
+     ],
+     "imagen": "assets/images/sections/cultura.jpg",
+     "etiquetas": [
+      "Festival",
+      "Música"
+     ],
+     "validar": true
+    },
+    {
+     "id": "c4",
+     "titulo": "La pesca con atarraya",
+     "resumen": "El oficio que inspira el logo y el slogan de la app.",
+     "cuerpo": [
+      "La atarraya es una red circular con plomos en el borde y una cuerda en el centro: se lanza para que abra en el aire, cae sobre el agua y al recogerla se cierra atrapando los peces.",
+      "Es el arte de pesca tradicional del bocachico y el sustento de muchas familias. Por eso nuestro slogan dice: «El corazón de Pijiño en cada atarraya»."
+     ],
+     "imagen": "assets/images/sections/pesca.jpg",
+     "etiquetas": [
+      "Oficio",
+      "Pesca"
+     ],
+     "validar": false
+    },
+    {
+     "id": "c5",
+     "titulo": "Devoción a la Virgen",
+     "resumen": "Procesiones y fiestas patronales.",
+     "cuerpo": [
+      "La fe mariana marca el calendario del pueblo: la Virgen del Retablo (3 de mayo) y la Virgen del Carmen (16 de julio) reúnen a familias, visitantes y pijiñeros que regresan desde otras ciudades."
+     ],
+     "imagen": "assets/images/sections/eventos.jpg",
+     "etiquetas": [
+      "Fe",
+      "Fiestas"
+     ],
+     "validar": true
+    },
+    {
+     "id": "c6",
+     "titulo": "Hijos del río",
+     "resumen": "Pescadores, campesinos y ganaderos.",
+     "cuerpo": [
+      "La identidad de Pijiño se construye alrededor del río y las ciénagas: la pesca, la agricultura de pancoger y la ganadería han sido, por generaciones, la base de la vida del municipio."
+     ],
+     "imagen": "assets/images/sections/municipio.jpg",
+     "etiquetas": [
+      "Identidad"
+     ],
+     "validar": false
+    }
+   ]
+  },
+  {
+   "id": "gastronomia",
+   "titulo": "Gastronomía",
+   "icono": "gastronomia",
+   "imagen": "assets/images/sections/gastronomia.jpg",
+   "descripcion": "Sabores ribereños donde el pescado es protagonista.",
+   "items": [
+    {
+     "id": "g1",
+     "titulo": "Bocachico",
+     "resumen": "El pez insignia de la mesa y del Festival.",
+     "cuerpo": [
+      "El bocachico (Prochilodus magdalenae) es un pez nativo de Colombia, propio de la cuenca del Magdalena. Se prepara frito, sudado en salsa de tomate y cebolla, o en viuda, y se acompaña con yuca, plátano, arroz o ensalada.",
+      "En el Festival del Bocachico las cocineras compiten por el mejor plato de pescado."
+     ],
+     "imagen": "assets/images/sections/gastronomia.jpg",
+     "etiquetas": [
+      "Pescado",
+      "Festival"
+     ],
+     "validar": false
+    },
+    {
+     "id": "g2",
+     "titulo": "Chicha de arroz y piña",
+     "resumen": "Una bebida que aprovecha la cáscara de la fruta.",
+     "cuerpo": [
+      "Entre las delicias del municipio se destaca la chicha de arroz y piña, que se prepara aprovechando la cáscara de la piña."
+     ],
+     "imagen": "assets/images/sections/gastronomia.jpg",
+     "etiquetas": [
+      "Bebida"
+     ],
+     "validar": true
+    },
+    {
+     "id": "g3",
+     "titulo": "Sancocho de pavo y platos de la región",
+     "resumen": "Cocina de fogón y de fiesta.",
+     "cuerpo": [
+      "La gastronomía de Pijiño del Carmen es diversa. Publicaciones regionales mencionan preparaciones como el sancocho de pavo y el mafufo, además de los bollos de yuca, el guineo cocido con queso (cayeye) y el pescado en viuda, comunes en los pueblos ribereños del Magdalena.",
+      "Nota: algunas recetas tradicionales históricamente usaron fauna silvestre. Hoy su caza y consumo están regulados; la app promueve preparaciones con productos legales y sostenibles."
+     ],
+     "imagen": "assets/images/sections/gastronomia.jpg",
+     "etiquetas": [
+      "Tradición"
+     ],
+     "validar": true
+    },
+    {
+     "id": "g4",
+     "titulo": "Concurso de pescado en el Festival",
+     "resumen": "Cocineras que compiten por el mejor plato.",
+     "cuerpo": [
+      "Dentro del Festival del Bocachico se premia, entre otros, el plato de pescado mejor preparado. Es la mejor ocasión para probar la sazón local."
+     ],
+     "imagen": "assets/images/sections/eventos.jpg",
+     "etiquetas": [
+      "Festival"
+     ],
+     "validar": true
+    }
+   ]
+  },
+  {
+   "id": "turismo",
+   "titulo": "Sitios turísticos",
+   "icono": "turismo",
+   "imagen": "assets/images/sections/turismo.jpg",
+   "descripcion": "Ciénagas, islas, balnearios y un malecón para mirar el atardecer.",
+   "items": [
+    {
+     "id": "t1",
+     "titulo": "Ciénaga de Pijiño",
+     "resumen": "El gran espejo de agua del municipio.",
+     "cuerpo": [
+      "La Ciénaga de Pijiño se comunica con el Brazo de Mompós por los caños Pijiño, La Ceiba, Sacabuche y Trapiche. En sus orillas están la cabecera municipal y corregimientos como Cabrera y Pita.",
+      "Es ideal para la navegación en canoa y el avistamiento de aves."
+     ],
+     "imagen": "assets/images/sections/municipio.jpg",
+     "etiquetas": [
+      "Ciénaga",
+      "Aves"
+     ],
+     "validar": false,
+     "mapa": "Ciénaga de Pijiño, Pijiño del Carmen, Magdalena"
+    },
+    {
+     "id": "t2",
+     "titulo": "Malecón turístico",
+     "resumen": "Un homenaje a los pescadores frente a la ciénaga El Palmar.",
+     "cuerpo": [
+      "El malecón turístico, sobre la ciénaga El Palmar en la cabecera municipal, fue pensado para la recreación y el turismo, como homenaje a los pescadores del pueblo."
+     ],
+     "imagen": "assets/images/sections/turismo.jpg",
+     "etiquetas": [
+      "Paseo",
+      "Atardecer"
+     ],
+     "validar": true,
+     "mapa": "Malecón turístico Pijiño del Carmen Magdalena"
+    },
+    {
+     "id": "t3",
+     "titulo": "La Arenada (Isla El Arenal)",
+     "resumen": "La pequeña isla frente al casco urbano.",
+     "cuerpo": [
+      "Frente al casco urbano, sobre la ciénaga El Palmar, se encuentra la isla conocida como La Arenada o El Arenal, escenario de eventos y paseos en canoa."
+     ],
+     "imagen": "assets/images/sections/pesca.jpg",
+     "etiquetas": [
+      "Isla",
+      "Balneario"
+     ],
+     "validar": true,
+     "mapa": "La Arenada Pijiño del Carmen Magdalena"
+    },
+    {
+     "id": "t4",
+     "titulo": "La Puntica del Pozo",
+     "resumen": "Balneario de la ciénaga.",
+     "cuerpo": [
+      "Hace parte de los balnearios de la Ciénaga de Pijiño citados como atractivo del municipio."
+     ],
+     "imagen": "assets/images/sections/municipio.jpg",
+     "etiquetas": [
+      "Balneario"
+     ],
+     "validar": true,
+     "mapa": "La Puntica del Pozo Pijiño del Carmen Magdalena"
+    },
+    {
+     "id": "t5",
+     "titulo": "La Vizcaína e Isla Verde",
+     "resumen": "Rincones de agua y vegetación.",
+     "cuerpo": [
+      "La Vizcaína e Isla Verde completan la lista de balnearios y sitios de recreación de la ciénaga. Pregunta a los pescadores por las mejores rutas y horarios para visitarlos."
+     ],
+     "imagen": "assets/images/sections/ambiental.jpg",
+     "etiquetas": [
+      "Balneario",
+      "Naturaleza"
+     ],
+     "validar": true,
+     "mapa": "La Vizcaína Pijiño del Carmen Magdalena"
+    },
+    {
+     "id": "t6",
+     "titulo": "Excursión en canoa y observación de aves",
+     "resumen": "Navegar despacio es la mejor forma de conocer la ciénaga.",
+     "cuerpo": [
+      "Desde Mompós llegan excursiones que recorren las ciénagas de Pijiño. El avistamiento de aves y la navegación son dos de los planes que más atraen a los visitantes. Contrata siempre a guías y lancheros locales."
+     ],
+     "imagen": "assets/images/sections/turismo.jpg",
+     "etiquetas": [
+      "Aves",
+      "Canoa"
+     ],
+     "validar": true
+    }
+   ]
+  },
+  {
+   "id": "ambiental",
+   "titulo": "Cuidemos el entorno",
+   "icono": "ambiental",
+   "imagen": "assets/images/sections/ambiental.jpg",
+   "descripcion": "Información para cuidar el río, las ciénagas, la fauna y la flora.",
+   "items": [
+    {
+     "id": "a1",
+     "titulo": "Un humedal vivo",
+     "resumen": "Las ciénagas sostienen la pesca, la agricultura y el paisaje.",
+     "cuerpo": [
+      "El complejo cenagoso de Pijiño forma parte de la Depresión Momposina. Sus aguas, plantas acuáticas, aves y peces sostienen la economía y la cultura local.",
+      "Cuidar la ciénaga es cuidar el sustento de las familias."
+     ],
+     "imagen": "assets/images/sections/ambiental.jpg",
+     "etiquetas": [
+      "Humedal"
+     ],
+     "validar": false
+    },
+    {
+     "id": "a2",
+     "titulo": "Pesca responsable",
+     "resumen": "Respetar tallas, mallas y temporadas protege al bocachico.",
+     "cuerpo": [
+      "El bocachico es una especie nativa y su pesca está sujeta a reglas de la autoridad pesquera (AUNAP), como tallas mínimas de captura y tamaño de malla. Usa atarrayas con ojo de malla adecuado y devuelve al agua los peces pequeños.",
+      "Consulta periodos de veda y normas vigentes antes de pescar."
+     ],
+     "imagen": "assets/images/sections/pesca.jpg",
+     "etiquetas": [
+      "Pesca",
+      "Norma"
+     ],
+     "validar": true
+    },
+    {
+     "id": "a3",
+     "titulo": "Fauna silvestre: se mira, no se extrae",
+     "resumen": "Aves, reptiles y mamíferos son parte del ecosistema.",
+     "cuerpo": [
+      "No compres ni vendas animales silvestres ni sus huevos. Observa a distancia, sin perseguir ni alimentar a los animales, y reporta cualquier tráfico a la autoridad ambiental."
+     ],
+     "imagen": "assets/images/sections/ambiental.jpg",
+     "etiquetas": [
+      "Fauna"
+     ],
+     "validar": false
+    },
+    {
+     "id": "a4",
+     "titulo": "Basura cero en la orilla",
+     "resumen": "Lo que llevas, te lo llevas.",
+     "cuerpo": [
+      "Lleva una bolsa para tus residuos, evita los plásticos de un solo uso y no arrojes basura al agua ni a los caños. Los residuos que llegan a la ciénaga terminan en el estómago de peces y aves."
+     ],
+     "imagen": "assets/images/sections/turismo.jpg",
+     "etiquetas": [
+      "Residuos"
+     ],
+     "validar": false
+    },
+    {
+     "id": "a5",
+     "titulo": "El árbol pijiño",
+     "resumen": "Un símbolo vegetal con nombre de pueblo.",
+     "cuerpo": [
+      "El árbol pijiño da nombre al municipio y su madera rosada se ha usado para la talla de cucharas de palo. Sembrar y proteger árboles nativos ayuda a conservar el paisaje y la sombra de los pijiñales."
+     ],
+     "imagen": "assets/images/sections/historia.jpg",
+     "etiquetas": [
+      "Flora"
+     ],
+     "validar": true
+    }
+   ]
+  }
+ ],
+ "consejos": [
+  "Usa atarrayas con ojo de malla adecuado y devuelve los peces pequeños.",
+  "Lleva siempre una bolsa para tus residuos cuando visites la ciénaga.",
+  "Observa las aves a distancia: no las persigas ni las alimentes.",
+  "No extraigas ni compres fauna silvestre ni sus huevos.",
+  "Navega despacio: el ruido y las olas de los motores asustan a las aves.",
+  "Ahorra agua y evita verter jabones o aceites a los caños.",
+  "Siembra y cuida árboles nativos, como el pijiño.",
+  "Contrata guías y lancheros locales: tu visita apoya a la comunidad."
+ ],
+ "eventos": [
+  {
+   "id": "e1",
+   "titulo": "Aniversario del municipio",
+   "dia": 26,
+   "mes": 3,
+   "fechaTexto": "26 de marzo",
+   "lugar": "Cabecera municipal",
+   "descripcion": "Se conmemora la creación del municipio en 1996 con actos culturales, deportivos y de integración.",
+   "imagen": "assets/images/sections/eventos.jpg",
+   "variable": false
+  },
+  {
+   "id": "e2",
+   "titulo": "Carnavales",
+   "dia": null,
+   "mes": 2,
+   "fechaTexto": "Febrero o marzo (fecha variable)",
+   "lugar": "Calles del municipio",
+   "descripcion": "Comparsas, música y disfraces. La fecha cambia cada año según el calendario del carnaval.",
+   "imagen": "assets/images/sections/cultura.jpg",
+   "variable": true
+  },
+  {
+   "id": "e3",
+   "titulo": "Semana Santa",
+   "dia": null,
+   "mes": 4,
+   "fechaTexto": "Marzo o abril (fecha variable)",
+   "lugar": "Cabecera y corregimientos",
+   "descripcion": "Celebraciones religiosas muy concurridas por familias y visitantes.",
+   "imagen": "assets/images/sections/eventos.jpg",
+   "variable": true
+  },
+  {
+   "id": "e4",
+   "titulo": "Virgen del Retablo de Pijiño",
+   "dia": 3,
+   "mes": 5,
+   "fechaTexto": "3 de mayo",
+   "lugar": "Cabecera municipal",
+   "descripcion": "Procesión del retablo de la Virgen, impreso en la tabla hallada en la ciénaga según la tradición.",
+   "imagen": "assets/images/sections/historia.jpg",
+   "variable": false
+  },
+  {
+   "id": "e5",
+   "titulo": "Fiestas de la Virgen del Carmen",
+   "dia": 16,
+   "mes": 7,
+   "fechaTexto": "16 de julio",
+   "lugar": "Cabecera municipal",
+   "descripcion": "Fiestas patronales en honor a la patrona del municipio.",
+   "imagen": "assets/images/sections/eventos.jpg",
+   "variable": false
+  },
+  {
+   "id": "e6",
+   "titulo": "Festival del Bocachico",
+   "dia": 17,
+   "mes": 7,
+   "fechaTexto": "17 y 18 de julio",
+   "lugar": "Barrio La Baizana, ciénaga El Palmar",
+   "descripcion": "Homenaje a los pescadores: concurso de atarraya, canotaje, plato de pescado y elección del rey o reina del Bocachico.",
+   "imagen": "assets/images/sections/pesca.jpg",
+   "variable": false
+  },
+  {
+   "id": "e7",
+   "titulo": "Feria Ganadera",
+   "dia": null,
+   "mes": 7,
+   "fechaTexto": "Julio (confirmar fecha)",
+   "lugar": "Cabecera municipal",
+   "descripcion": "Muestra de la tradición ganadera del municipio.",
+   "imagen": "assets/images/sections/municipio.jpg",
+   "variable": true
+  },
+  {
+   "id": "e8",
+   "titulo": "Fiestas de Nuestra Señora del Tránsito",
+   "dia": 15,
+   "mes": 8,
+   "fechaTexto": "15 de agosto",
+   "lugar": "Corregimiento de Cabrera",
+   "descripcion": "Fiestas patronales del centro poblado de Cabrera.",
+   "imagen": "assets/images/sections/eventos.jpg",
+   "variable": false
+  },
+  {
+   "id": "e9",
+   "titulo": "Fiestas de la Inmaculada Concepción",
+   "dia": 8,
+   "mes": 12,
+   "fechaTexto": "8 de diciembre (confirmar)",
+   "lugar": "Centro poblado Casa Blanca",
+   "descripcion": "Fiestas patronales de Casa Blanca.",
+   "imagen": "assets/images/sections/eventos.jpg",
+   "variable": false
+  },
+  {
+   "id": "e10",
+   "titulo": "Divino Niño",
+   "dia": 25,
+   "mes": 12,
+   "fechaTexto": "25 de diciembre",
+   "lugar": "Vereda Nueva Holanda",
+   "descripcion": "Celebración navideña en honor al Divino Niño.",
+   "imagen": "assets/images/sections/cultura.jpg",
+   "variable": false
+  }
+ ],
+ "galeria": {
+  "fotos": [
+   {
+    "imagen": "assets/images/gallery/atardecer.jpg",
+    "titulo": "Atardecer en la ciénaga",
+    "descripcion": "El sol, la palmera y la canoa: símbolos del logo de Pijiño."
+   },
+   {
+    "imagen": "assets/images/gallery/atarraya.jpg",
+    "titulo": "Pescador con atarraya",
+    "descripcion": "Un oficio que se hereda de generación en generación."
+   },
+   {
+    "imagen": "assets/images/gallery/malecon.jpg",
+    "titulo": "Malecón turístico",
+    "descripcion": "Paseo frente a la ciénaga."
+   },
+   {
+    "imagen": "assets/images/gallery/cienaga.jpg",
+    "titulo": "La ciénaga",
+    "descripcion": "Aguas tranquilas rodeadas de palmeras."
+   },
+   {
+    "imagen": "assets/images/gallery/tambores.jpg",
+    "titulo": "Tambores y bailes cantaos",
+    "descripcion": "El ritmo del chandé y el pajarito."
+   },
+   {
+    "imagen": "assets/images/gallery/festival.jpg",
+    "titulo": "Noche de fiesta",
+    "descripcion": "Las fiestas patronales llenan el pueblo de color."
+   },
+   {
+    "imagen": "assets/images/gallery/humedal.jpg",
+    "titulo": "Humedal y aves",
+    "descripcion": "Plantas acuáticas, flores y garzas."
+   },
+   {
+    "imagen": "assets/images/gallery/mesa.jpg",
+    "titulo": "Bocachico a la mesa",
+    "descripcion": "El plato insignia de los pueblos ribereños."
+   }
+  ],
+  "videos": [
+   {
+    "titulo": "Conecta con Pijiño (intro)",
+    "descripcion": "Presentación de la app y de su slogan.",
+    "asset": "assets/videos/intro_conecta_con_pijino.mp4",
+    "portada": "assets/images/sections/video_intro.jpg"
+   },
+   {
+    "titulo": "Recorrido por Pijiño",
+    "descripcion": "Historia, cultura, gastronomía, turismo y cuidado del entorno en un minuto.",
+    "asset": "assets/videos/recorrido_pijino.mp4",
+    "portada": "assets/images/sections/video_recorrido.jpg"
+   }
+  ]
+ },
+ "enlaces": [
+  {
+   "titulo": "Alcaldía de Pijiño del Carmen",
+   "url": "https://www.pijinodelcarmen-magdalena.gov.co",
+   "descripcion": "Sitio oficial del municipio (verifica que esté activo)."
+  },
+  {
+   "titulo": "Gobernación del Magdalena",
+   "url": "https://www.magdalena.gov.co",
+   "descripcion": "Información departamental."
+  },
+  {
+   "titulo": "Colombia Travel",
+   "url": "https://colombia.travel",
+   "descripcion": "Portal de turismo de Colombia."
+  },
+  {
+   "titulo": "SENA",
+   "url": "https://www.sena.edu.co",
+   "descripcion": "Servicio Nacional de Aprendizaje."
+  },
+  {
+   "titulo": "AUNAP",
+   "url": "https://www.aunap.gov.co",
+   "descripcion": "Normas de pesca y acuicultura."
+  }
+ ],
+ "acerca": {
+  "slogan": "El corazón de Pijiño en cada atarraya",
+  "mision": "Dar a conocer de forma cercana y sencilla la historia, la cultura, la gastronomía y los sitios turísticos de Pijiño del Carmen, promoviendo el orgullo por sus raíces y el interés por valorar y cuidar nuestro municipio.",
+  "vision": "Para el año 2030, lograr que Pijiño del Carmen sea reconocido como un destino cultural y turístico destacado, donde su historia, sus tradiciones y su gastronomía sean valoradas y contribuyan al desarrollo y bienestar de su comunidad.",
+  "valores": [
+   [
+    "Responsabilidad",
+    "Publicamos información verificada y respetamos a quienes aportan sus historias, fotografías y saberes."
+   ],
+   [
+    "Sostenibilidad",
+    "Promovemos el cuidado del río, las ciénagas, la fauna y la flora."
+   ],
+   [
+    "Compromiso social",
+    "Trabajamos para el beneficio de la comunidad y de sus emprendedores."
+   ],
+   [
+    "Identidad cultural",
+    "Valoramos y difundimos las raíces, costumbres y tradiciones."
+   ],
+   [
+    "Trabajo en equipo",
+    "Sumamos los aportes de aprendices, instructor, institución y comunidad."
+   ],
+   [
+    "Creatividad",
+    "Buscamos formas atractivas y modernas de contar nuestra historia."
+   ],
+   [
+    "Respeto",
+    "Reconocemos la diversidad de personas, creencias y expresiones culturales."
+   ]
+  ],
+  "simbologia": [
+   [
+    "Pescador con atarraya",
+    "Representa al pescador artesanal, oficio tradicional y sustento de muchas familias."
+   ],
+   [
+    "Palmera",
+    "Evoca el paisaje ribereño y tropical."
+   ],
+   [
+    "Sol",
+    "Simboliza un nuevo día, la calidez de la gente y la esperanza."
+   ],
+   [
+    "Círculo",
+    "La unión de la comunidad y la conexión entre las personas y su territorio."
+   ],
+   [
+    "Tipografía en arco",
+    "«Conecta con Pijiño» rodea la imagen como un abrazo al municipio."
+   ]
+  ]
+ }
+}

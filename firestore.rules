@@ -1,0 +1,29 @@
+rules_version = '2';
+
+// Reglas de seguridad de Cloud Firestore para APP-Conecta con Pijiño.
+// Pégalas en Firebase Console > Firestore Database > Reglas > Publicar.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Cada usuario solo puede leer, crear, editar y borrar SU propio perfil.
+    match /usuarios/{uid} {
+      allow read, update, delete: if request.auth != null && request.auth.uid == uid;
+      allow create: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // Sugerencias: cualquier usuario con sesión puede enviar; nadie las lee desde la app.
+    // (El equipo las consulta desde la consola de Firebase.)
+    match /sugerencias/{id} {
+      allow create: if request.auth != null
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.mensaje is string
+                    && request.resource.data.mensaje.size() <= 1000;
+      allow read, update, delete: if false;
+    }
+
+    // Todo lo demás está cerrado.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
